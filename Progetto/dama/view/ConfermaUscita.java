@@ -15,7 +15,14 @@ import javax.swing.SwingConstants;
 
 @SuppressWarnings("serial")
 public class ConfermaUscita extends JFrame {
-
+	
+	
+	/**
+	 * Costruttore della classe Conferma Uscita.
+	 * Quando l'utente preme sul pulsante per chiudere la finestra
+	 * con la damiera, si apre un'altra finestra che chiede conferma
+	 * dell'azione.
+	*/
 	public ConfermaUscita() {
 		super("Attenzione!!!");
 
@@ -30,7 +37,7 @@ public class ConfermaUscita extends JFrame {
 		risposta.setLayout(new FlowLayout());
 
 
-		risposta.add(new JButton("Sì") {{
+		risposta.add(new JButton("Sï¿½") {{
 			addActionListener(new ActionListener() {
 
 				@Override
